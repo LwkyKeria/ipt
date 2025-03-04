@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="hotel_design.xsl"?>
+
+<HotelDataRecords>
+    <name>Grand Vista Hotel</name>
+    <Location>123 Main St, Cityville, ST 12345</Location>
+    <ContactNumber>(123) 456-7890</ContactNumber>
+
+    <hotel>
+        <room_id>H001</room_id>
+        <room_type>King room</room_type>
+        <category>Luxury</category>
+        <RoomRates>
+            <Rate currency="Peso">35,000.00</Rate>
+            <Fees>
+                <Fee type="Cleaning">6,000.00</Fee>
+                <Fee type="Service">4,000.00</Fee>
+            </Fees>
+        </RoomRates>
+        <rating>⭐⭐⭐⭐⭐</rating>
+        <amenities>Ocean View, Private Balcony, Mini Bar, Free Breakfast</amenities>
+        <customerDetails>
+            <customer>
+                <identity>
+                    <firstName>Juan</firstName>
+                    <lastName> dela Cruz</lastName>
+                </identity>
+                <address>
+                    <street>456 Elm St</street>
+                    <city>Quezon City</city>
+                    <province>Metro Manila</province>
+                    <zipCode>1100</zipCode>
+                </address>
+                <contactNumber>(0917) 654-3210</contactNumber>
+                <checkInTime>2023-10-05T15:00:00</checkInTime>
+                <checkOutTime>2023-10-10T11:00:00</checkOutTime>
+            </customer>
+        </customerDetails>
+        <servicesProvided>
+            <service>
+                <serviceName>Spa Services</serviceName>
+                <description>Relaxing spa treatments available.</description>
+                <fee currency="Peso">2,000.00</fee>
+            </service>
+            <service>
+                <serviceName>Room Service</serviceName>
+                <description>24/7 food and beverage service to your room.</description>
+                <fee currency="Peso">500.00</fee>
+            </service>
+        </servicesProvided>
+    </hotel>
+
+    <hotel>
+        <room_id>H002</room_id>
+        <room_type>Executive suite</room_type>
+        <category>Luxury</category>
+        <RoomRates>
+            <Rate currency="Peso">28,000.00</Rate>
+            <Fees>
+                <Fee type="Cleaning">4,500.00</Fee>
+                <Fee type="Service">3,500.00</Fee>
+            </Fees>
+        </RoomRates>
+        <rating>⭐⭐⭐⭐⭐</rating>
+        <amenities>Free Wi-Fi, Executive Lounge Access, Spa, Gym</amenities>
+        <customerDetails>
+            <customer>
+                <identity>
+                    <firstName>Maria</firstName>
+                    <lastName>Clara</lastName>
+                </identity>
+                <address>
+                    <street>789 Pine St</street>
+                    <city>Cebu City</city>
+                    <province>Cebu</province>
+                    <zipCode>6000</zipCode>
+                </address>
+                <contactNumber>(0918) 123-4567</contactNumber>
+                <checkInTime>2023-10-05T15:00:00</checkInTime>
+                <checkOutTime>2023-10-10T11:00:00</checkOutTime>
+            </customer>
+        </customerDetails>
+        <servicesProvided>
+            <service>
+                <serviceName>Spa Services</serviceName>
+                <description>Relaxing spa treatments available.</description>
+                <fee currency="Peso">2,000.00</fee>
+            </service>
+            <service>
+                <serviceName>Room Service</serviceName>
+                <description>24/7 food and beverage service to your room.</description>
+                <fee currency="Peso">500.00</fee>
+            </service>
+        </servicesProvided>
+    </hotel>
+
+    <hotel>
+        <room_id>H003</room_id>
+        <room_type>Standard room</room_type>
+        <category>Luxury</category>
+        <RoomRates>
+            <Rate currency="Peso">22,000.00</Rate>
+            <Fees>
+                <Fee type="Cleaning">2,500.00</Fee>
+                <Fee type="Service">2,000.00</Fee>
+            </Fees>
+        </RoomRates>
+        <rating>⭐⭐⭐⭐</rating>
+        <amenities>Complimentary Snacks, City View, Coffee Maker</amenities>
+        <customerDetails>
+            <customer>
+                <identity>
+                    <firstName>Pedro</firstName>
+                    <lastName>Gonzales</lastName>
+                </identity>
+                <address>
+                    <street>123 Mango St</street>
+                    <city>Davao City</city>
+                    <province>Davao del Sur</province>
+                    <zipCode>8000</zipCode>
+                </address>
+                <contactNumber>(0919) 876-5432</contactNumber>
+                <checkInTime>2023-10-05T15:00:00</checkInTime>
+                <checkOutTime>2023-10-10T11:00:00</checkOutTime>
+            </customer>
+        </customerDetails>
+        <servicesProvided>
+            <service>
+                <serviceName>Spa Services</serviceName>
+                <description>Relaxing spa treatments available.</description>
+                <fee currency="Peso">2,000.00</fee>
+            </service>
+            <service>
+                <serviceName>Room Service</serviceName>
+                <description>24/7 food and beverage service to your room.</description>
+                <fee currency="Peso">500.00</fee>
+            </service>
+        </servicesProvided>
+    </hotel>
+
+    <hotel>
+        <room_id>H004</room_id>
+        <room_type>Connecting rooms</room_type>
+        <category>Luxury</category>
+        <RoomRates>
+            <Rate currency="Peso">33,000.00</Rate>
+            <Fees>
+                <Fee type="Cleaning">5,000.00</Fee>
+                <Fee type="Service">4,000.00</Fee>
+            </Fees>
+        </RoomRates>
+        <rating>⭐⭐⭐⭐⭐</rating>
+        <amenities>Family Friendly, Free Wi-Fi, Pool, Kitchenette</amenities>
+        <customerDetails>
+            <customer>
+                <identity>
+                    <firstName>Anna</firstName>
+                    <lastName>Smith</lastName>
+                </identity>
+                <address>
+                    <street>321 Coconut Ave</street>
+                    <city>Taguig City</city>
+                    <province>Metro Manila</province>
+                    <zipCode>1630</zipCode>
+                </address>
+                <contactNumber>(0920) 123-4567</contactNumber>
+                <checkInTime>2023-10-05T15:00:00</checkInTime>
+                <checkOutTime>2023-10-10T11:00:00</checkOutTime>
+            </customer>
+        </customerDetails>
+        <servicesProvided>
+            <service>
+                <serviceName>Spa Services</serviceName>
+                <description>Relaxing spa treatments available.</description>
+                <fee currency="Peso">2,000.00</fee>
+            </service>
+            <service>
+                <serviceName>Room Service</serviceName>
+                <description>24/7 food and beverage service to your room.</description>
+                <fee currency="Peso">500.00</fee>
+            </service>
+        </servicesProvided>
+    </hotel>
+
+    <hotel>
+        <room_id>H005</room_id>
+        <room_type>Honeymoon suites</room_type>
+        <category>Luxury</category>
+        <RoomRates>
+            <Rate currency="Peso">40,000.00</Rate>
+            <Fees>
+                <Fee type="Cleaning">6,000.00</Fee>
+                <Fee type="Service">5,000.00</Fee>
+            </Fees>
+        </RoomRates>
+        <rating>⭐⭐⭐⭐⭐</rating>
+        <amenities>Romantic Setup, Private Jacuzzi, Ocean View</amenities>
+        <customerDetails>
+            <customer>
+                <identity>
+                    <firstName>James</firstName>
+                    <lastName>Bond</lastName>
+                </identity>
+                <address>
+                    <street>654 Sunset Blvd</street>
+                    <city>Manila</city>
+                    <province>Metro Manila</province>
+                    <zipCode>1000</zipCode>
+                </address>
+                <contactNumber>(0917) 123-4567</contactNumber>
+                <checkInTime>2023-10-05T15:00:00</checkInTime>
+                <checkOutTime>2023-10-10T11:00:00</checkOutTime>
+            </customer>
+        </customerDetails>
+        <servicesProvided>
+            <service>
+                <serviceName>Spa Services</serviceName>
+                <description>Relaxing spa treatments available.</description>
+                <fee currency="Peso">2,000.00</fee>
+            </service>
+            <service>
+                <serviceName>Room Service</serviceName>
+                <description>24/7 food and beverage service to your room.</description>
+                <fee currency="Peso">500.00</fee>
+            </service>
+        </servicesProvided>
+    </hotel>
+
+    <hotel>
+        <room_id>H006</room_id>
+        <room_type>Double rooms</room_type>
+        <category>Luxury</category>
+        <RoomRates>
+            <Rate currency="Peso">30,000.00</Rate>
+            <Fees>
+                <Fee type="Cleaning">5,000.00</Fee>
+                <Fee type="Service">4,000.00</Fee>
+            </Fees>
+        </RoomRates>
+        <rating>⭐⭐⭐⭐⭐</rating>
+        <amenities>Free Wi-Fi, Pool Access, Breakfast Included</amenities>
+        <customerDetails>
+            <customer>
+                <identity>
+                    <firstName>Kim</firstName>
+                    <lastName>Besmar</lastName>
+                </identity>
+                <address>
+                    <street>123 Rizal St</street>
+                    <city>Manila</city>
+                    <province>Metro Manila</province>
+                    <zipCode>1000</zipCode>
+                </address>
+                <contactNumber>(0918) 765-4321</contactNumber>
+                <checkInTime>2023-10-05T15:00:00</checkInTime>
+                <checkOutTime>2023-10-10T11:00:00</checkOutTime>
+            </customer>
+        </customerDetails>
+        <servicesProvided>
+            <service>
+                <serviceName>Spa Services</serviceName>
+                <description>Relaxing spa treatments available.</description>
+                <fee currency="Peso">2,000.00</fee>
+            </service>
+            <service>
+                <serviceName>Room Service</serviceName>
+                <description>24/7 food and beverage service to your room.</description>
+                <fee currency="Peso">500.00</fee>
+            </service>
+        </servicesProvided>
+    </hotel>
+
+    <hotel>
+        <room_id>H007</room_id>
+        <room_type>Double rooms</room_type>
+        <category>Luxury</category>
+        <RoomRates>
+            <Rate currency="Peso">30,000.00</Rate>
+            <Fees>
+                <Fee type="Cleaning">5,000.00</Fee>
+                <Fee type="Service">4,000.00</Fee>
+            </Fees>
+        </RoomRates>
+        <rating>⭐⭐⭐⭐⭐</rating>
+        <amenities>Free Wi-Fi, Pool Access, Breakfast Included</amenities>
+        <customerDetails>
+            <customer>
+                <identity>
+                    <firstName>Erik</firstName>
+                    <lastName>Roxas</lastName>
+                </identity>
+                <address>
+                    <street>123 Rizal St</street>
+                    <city>Manila</city>
+                    <province>Metro Manila</province>
+                    <zipCode>1000</zipCode>
+                </address>
+                <contactNumber>(0918) 765-4321</contactNumber>
+                <checkInTime>2023-10-05T15:00:00</checkInTime>
+                <checkOutTime>2023-10-10T11:00:00</checkOutTime>
+            </customer>
+        </customerDetails>
+        <servicesProvided>
+            <service>
+                <serviceName>Spa Services</serviceName>
+                <description>Relaxing spa treatments available.</description>
+                <fee currency="Peso">2,000.00</fee>
+            </service>
+            <service>
+                <serviceName>Room Service</serviceName>
+                <description>24/7 food and beverage service to your room.</description>
+                <fee currency="Peso">500.00</fee>
+            </service>
+        </servicesProvided>
+    </hotel>
+
+    <hotel>
+        <room_id>H008</room_id>
+        <room_type>Double rooms</room_type>
+        <category>Luxury</category>
+        <RoomRates>
+            <Rate currency="Peso">30,000.00</Rate>
+            <Fees>
+                <Fee type="Cleaning">5,000.00</Fee>
+                <Fee type="Service">4,000.00</Fee>
+            </Fees>
+        </RoomRates>
+        <rating>⭐⭐⭐⭐⭐</rating>
+        <amenities>Free Wi-Fi, Pool Access, Breakfast Included</amenities>
+        <customerDetails>
+            <customer>
+                <identity>
+                    <firstName>Kyla</firstName>
+                    <lastName>Reano</lastName>
+                </identity>
+                <address>
+                    <street>123 Rizal St</street>
+                    <city>Manila</city>
+                    <province>Metro Manila</province>
+                    <zipCode>1000</zipCode>
+                </address>
+                <contactNumber>(0918) 765-4321</contactNumber>
+                <checkInTime>2023-10-05T15:00:00</checkInTime>
+                <checkOutTime>2023-10-10T11:00:00</checkOutTime>
+            </customer>
+        </customerDetails>
+        <servicesProvided>
+            <service>
+                <serviceName>Spa Services</serviceName>
+                <description>Relaxing spa treatments available.</description>
+                <fee currency="Peso">2,000.00</fee>
+            </service>
+            <service>
+                <serviceName>Room Service</serviceName>
+                <description>24/7 food and beverage service to your room.</description>
+                <fee currency="Peso">500.00</fee>
+            </service>
+        </servicesProvided>
+    </hotel>
+
+    <hotel>
+        <room_id>H009</room_id>
+        <room_type>Double rooms</room_type>
+        <category>Luxury</category>
+        <RoomRates>
+            <Rate currency="Peso">30,000.00</Rate>
+            <Fees>
+                <Fee type="Cleaning">5,000.00</Fee>
+                <Fee type="Service">4,000.00</Fee>
+            </Fees>
+        </RoomRates>
+        <rating>⭐⭐⭐⭐⭐</rating>
+        <amenities>Free Wi-Fi, Pool Access, Breakfast Included</amenities>
+        <customerDetails>
+            <customer>
+                <identity>
+                    <firstName>Crystal</firstName>
+                    <lastName>Libo-on</lastName>
+                </identity>
+                <address>
+                    <street>123 Rizal St</street>
+                    <city>Manila</city>
+                    <province>Metro Manila</province>
+                    <zipCode>1000</zipCode>
+                </address>
+                <contactNumber>(0918) 765-4321</contactNumber>
+                <checkInTime>2023-10-05T15:00:00</checkInTime>
+                <checkOutTime>2023-10-10T11:00:00</checkOutTime>
+            </customer>
+        </customerDetails>
+        <servicesProvided>
+            <service>
+                <serviceName>Spa Services</serviceName>
+                <description>Relaxing spa treatments available.</description>
+                <fee currency="Peso">2,000.00</fee>
+            </service>
+            <service>
+                <serviceName>Room Service</serviceName>
+                <description>24/7 food and beverage service to your room.</description>
+                <fee currency="Peso">500.00</fee>
+            </service>
+        </servicesProvided>
+    </hotel>
+
+    <hotel>
+        <room_id>H0010</room_id>
+        <room_type>Double rooms</room_type>
+        <category>Luxury</category>
+        <RoomRates>
+            <Rate currency="Peso">30,000.00</Rate>
+            <Fees>
+                <Fee type="Cleaning">5,000.00</Fee>
+                <Fee type="Service">4,000.00</Fee>
+            </Fees>
+        </RoomRates>
+        <rating>⭐⭐⭐⭐⭐</rating>
+        <amenities>Free Wi-Fi, Pool Access, Breakfast Included</amenities>
+        <customerDetails>
+            <customer>
+                <identity>
+                    <firstName>JV</firstName>
+                    <lastName>Ferrer</lastName>
+                </identity>
+                <address>
+                    <street>123 Rizal St</street>
+                    <city>Manila</city>
+                    <province>Metro Manila</province>
+                    <zipCode>1000</zipCode>
+                </address>
+                <contactNumber>(0918) 765-4321</contactNumber>
+                <checkInTime>2023-10-05T15:00:00</checkInTime>
+                <checkOutTime>2023-10-10T11:00:00</checkOutTime>
+            </customer>
+        </customerDetails>
+        <servicesProvided>
+            <service>
+                <serviceName>Spa Services</serviceName>
+                <description>Relaxing spa treatments available.</description>
+                <fee currency="Peso">2,000.00</fee>
+            </service>
+            <service>
+                <serviceName>Room Service</serviceName>
+                <description>24/7 food and beverage service to your room.</description>
+                <fee currency="Peso">500.00</fee>
+            </service>
+        </servicesProvided>
+    </hotel>
+
+    <hotel>
+        <room_id>H0011</room_id>
+        <room_type>Double rooms</room_type>
+        <category>Luxury</category>
+        <RoomRates>
+            <Rate currency="Peso">30,000.00</Rate>
+            <Fees>
+                <Fee type="Cleaning">5,000.00</Fee>
+                <Fee type="Service">4,000.00</Fee>
+            </Fees>
+        </RoomRates>
+        <rating>⭐⭐⭐⭐⭐</rating>
+        <amenities>Free Wi-Fi, Pool Access, Breakfast Included</amenities>
+        <customerDetails>
+            <customer>
+                <identity>
+                    <firstName>Carl</firstName>
+                    <lastName>Demalata</lastName>
+                </identity>
+                <address>
+                    <street>123 Rizal St</street>
+                    <city>Manila</city>
+                    <province>Metro Manila</province>
+                    <zipCode>1000</zipCode>
+                </address>
+                <contactNumber>(0918) 765-4321</contactNumber>
+                <checkInTime>2023-10-05T15:00:00</checkInTime>
+                <checkOutTime>2023-10-10T11:00:00</checkOutTime>
+            </customer>
+        </customerDetails>
+        <servicesProvided>
+            <service>
+                <serviceName>Spa Services</serviceName>
+                <description>Relaxing spa treatments available.</description>
+                <fee currency="Peso">2,000.00</fee>
+            </service>
+            <service>
+                <serviceName>Room Service</serviceName>
+                <description>24/7 food and beverage service to your room.</description>
+                <fee currency="Peso">500.00</fee>
+            </service>
+        </servicesProvided>
+    </hotel>
+
+    <hotel>
+        <room_id>H0012</room_id>
+        <room_type>Double rooms</room_type>
+        <category>Luxury</category>
+        <RoomRates>
+            <Rate currency="Peso">30,000.00</Rate>
+            <Fees>
+                <Fee type="Cleaning">5,000.00</Fee>
+                <Fee type="Service">4,000.00</Fee>
+            </Fees>
+        </RoomRates>
+        <rating>⭐⭐⭐⭐⭐</rating>
+        <amenities>Free Wi-Fi, Pool Access, Breakfast Included</amenities>
+        <customerDetails>
+            <customer>
+                <identity>
+                    <firstName>Paul</firstName>
+                    <lastName>Vidal</lastName>
+                </identity>
+                <address>
+                    <street>123 Rizal St</street>
+                    <city>Manila</city>
+                    <province>Metro Manila</province>
+                    <zipCode>1000</zipCode>
+                </address>
+                <contactNumber>(0918) 765-4321</contactNumber>
+                <checkInTime>2023-10-05T15:00:00</checkInTime>
+                <checkOutTime>2023-10-10T11:00:00</checkOutTime>
+            </customer>
+        </customerDetails>
+        <servicesProvided>
+            <service>
+                <serviceName>Spa Services</serviceName>
+                <description>Relaxing spa treatments available.</description>
+                <fee currency="Peso">2,000.00</fee>
+            </service>
+            <service>
+                <serviceName>Room Service</serviceName>
+                <description>24/7 food and beverage service to your room.</description>
+                <fee currency="Peso">500.00</fee>
+            </service>
+        </servicesProvided>
+    </hotel>
+
+    <hotel>
+        <room_id>H0013</room_id>
+        <room_type>Double rooms</room_type>
+        <category>Luxury</category>
+        <RoomRates>
+            <Rate currency="Peso">30,000.00</Rate>
+            <Fees>
+                <Fee type="Cleaning">5,000.00</Fee>
+                <Fee type="Service">4,000.00</Fee>
+            </Fees>
+        </RoomRates>
+        <rating>⭐⭐⭐⭐⭐</rating>
+        <amenities>Free Wi-Fi, Pool Access, Breakfast Included</amenities>
+        <customerDetails>
+            <customer>
+                <identity>
+                    <firstName>Jose</firstName>
+                    <lastName>Jen</lastName>
+                </identity>
+                <address>
+                    <street>123 Rizal St</street>
+                    <city>Manila</city>
+                    <province>Metro Manila</province>
+                    <zipCode>1000</zipCode>
+                </address>
+                <contactNumber>(0918) 765-4321</contactNumber>
+                <checkInTime>2023-10-05T15:00:00</checkInTime>
+                <checkOutTime>2023-10-10T11:00:00</checkOutTime>
+            </customer>
+        </customerDetails>
+        <servicesProvided>
+            <service>
+                <serviceName>Spa Services</serviceName>
+                <description>Relaxing spa treatments available.</description>
+                <fee currency="Peso">2,000.00</fee>
+            </service>
+            <service>
+                <serviceName>Room Service</serviceName>
+                <description>24/7 food and beverage service to your room.</description>
+                <fee currency="Peso">500.00</fee>
+            </service>
+        </servicesProvided>
+    </hotel>
+
+    <hotel>
+        <room_id>H0014</room_id>
+        <room_type>Double rooms</room_type>
+        <category>Luxury</category>
+        <RoomRates>
+            <Rate currency="Peso">30,000.00</Rate>
+            <Fees>
+                <Fee type="Cleaning">5,000.00</Fee>
+                <Fee type="Service">4,000.00</Fee>
+            </Fees>
+        </RoomRates>
+        <rating>⭐⭐⭐⭐⭐</rating>
+        <amenities>Free Wi-Fi, Pool Access, Breakfast Included</amenities>
+        <customerDetails>
+            <customer>
+                <identity>
+                    <firstName>James</firstName>
+                    <lastName>Lebron</lastName>
+                </identity>
+                <address>
+                    <street>123 Rizal St</street>
+                    <city>Manila</city>
+                    <province>Metro Manila</province>
+                    <zipCode>1000</zipCode>
+                </address>
+                <contactNumber>(0918) 765-4321</contactNumber>
+                <checkInTime>2023-10-05T15:00:00</checkInTime>
+                <checkOutTime>2023-10-10T11:00:00</checkOutTime>
+            </customer>
+        </customerDetails>
+        <servicesProvided>
+            <service>
+                <serviceName>Spa Services</serviceName>
+                <description>Relaxing spa treatments available.</description>
+                <fee currency="Peso">2,000.00</fee>
+            </service>
+            <service>
+                <serviceName>Room Service</serviceName>
+                <description>24/7 food and beverage service to your room.</description>
+                <fee currency="Peso">500.00</fee>
+            </service>
+        </servicesProvided>
+    </hotel>
+
+    <hotel>
+        <room_id>H0015</room_id>
+        <room_type>Double rooms</room_type>
+        <category>Luxury</category>
+        <RoomRates>
+            <Rate currency="Peso">30,000.00</Rate>
+            <Fees>
+                <Fee type="Cleaning">5,000.00</Fee>
+                <Fee type="Service">4,000.00</Fee>
+            </Fees>
+        </RoomRates>
+        <rating>⭐⭐⭐⭐⭐</rating>
+        <amenities>Free Wi-Fi, Pool Access, Breakfast Included</amenities>
+        <customerDetails>
+            <customer>
+                <identity>
+                    <firstName>Steph</firstName>
+                    <lastName>Curry</lastName>
+                </identity>
+                <address>
+                    <street>123 Rizal St</street>
+                    <city>Manila</city>
+                    <province>Metro Manila</province>
+                    <zipCode>1000</zipCode>
+                </address>
+                <contactNumber>(0918) 765-4321</contactNumber>
+                <checkInTime>2023-10-05T15:00:00</checkInTime>
+                <checkOutTime>2023-10-10T11:00:00</checkOutTime>
+            </customer>
+        </customerDetails>
+        <servicesProvided>
+            <service>
+                <serviceName>Spa Services</serviceName>
+                <description>Relaxing spa treatments available.</description>
+                <fee currency="Peso">2,000.00</fee>
+            </service>
+            <service>
+                <serviceName>Room Service</serviceName>
+                <description>24/7 food and beverage service to your room.</description>
+                <fee currency="Peso">500.00</fee>
+            </service>
+        </servicesProvided>
+    </hotel>
+</HotelDataRecords>
